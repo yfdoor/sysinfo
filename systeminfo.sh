@@ -25,9 +25,9 @@ partition_info=$(lsblk -o NAME,SIZE,MOUNTPOINT | grep -v "loop")
 ip_address=$(dig +short myip.opendns.com @resolver1.opendns.com)
 
 # 显示系统信息
-echo "----------------------------------------"
-echo "---    Linux System Info - yfdoor    ---"
-echo "----------------------------------------"
+echo "========================================"
+echo "||     Linux System Info - yfdoor     ||"
+echo "========================================"
 echo "系统信息:"
 echo "----------------------------------------"
 echo "主机名称: $host_name"
